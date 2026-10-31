@@ -1,0 +1,42 @@
+{
+  "name": "inreels",
+  "version": "0.1.0",
+  "description": "inReels CLI and local MCP server — ad creatives, UGC ads and faceless video for AI agents.",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://www.inreels.ai/connect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inreels-ai/inreels-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/inreels-ai/inreels-mcp/issues"
+  },
+  "bin": {
+    "inreels": "./src/cli.js",
+    "inreels-mcp": "./src/stdio.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "video",
+    "video-generation",
+    "ugc",
+    "ads",
+    "ad-creative",
+    "faceless-video",
+    "text-to-video",
+    "claude",
+    "cursor",
+    "codex",
+    "agent"
+  ]
+}
